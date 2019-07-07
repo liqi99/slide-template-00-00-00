@@ -4,11 +4,14 @@
 \usepackage{graphics}
 \usepackage{pdflscape}
 \usepackage{float}
-\usepackage{graphicx}%Put this in the preamble.
+\usepackage{graphicx} %Put this in the preamble.
 \usepackage{rotating}
 \usepackage{fancyhdr}
 %\usepackage[UTF8,noindent]{ctexcap}
 \date{\today}
+
+%\setlength{\textwidth}{16cm}
+%\setlength{\textheight}{20cm}
 
 \usetheme{Copenhagen}
 %\usetheme{Darmstadt}
@@ -19,39 +22,46 @@
 %\useoutertheme{shadow}
 \usefonttheme{professionalfonts}
 
-\usepackage{arev}
+%\usepackage{arev}
 %\setbeamertemplate{background canvas}[vertical shading][bottom=red!20,top=yellow!30]
 
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{footline}[frame number]
 
 %\date{\today}
-\setbeamertemplate{footline}[frame number]
 %\setbeamertemplate{caption}[numbered]
 %\includegraphics[width=0.5\textwidth]{logo/ihep-logo.pdf}
 
-\pagestyle{fancy}
+%\pagestyle{fancy}
 
-\lfoot{Qi Li(IHEP, Beijing)}
+%\lfoot{Qi Li (IHEP, Beijing)}
 
-\cfoot{}
-\rfoot{\thepage}
-%\renewcommand{\headrulewidth}{0.4pt}
+%\cfoot{Qi Li}
+%\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+
 \begin{document}
 
-\titlegraphic{\includegraphics[height=0.25\textwidth]{logo/ihep-logo.pdf}}
-\titlegraphic{\includegraphics[height=0.25\textwidth]{logo/atlas-logo.pdf}}
-\title{$hh\rightarrow WW\gamma\gamma$}
-\author{Qi Li}
-\institute{(IHEP, CAS)} %\institute{Institute of High Energy Physics, Chinese Academy of Sciences}
+%\titlegraphic{\includegraphics[height=0.25\textwidth]{logo/ihep-logo.pdf}}
+%\titlegraphic{\includegraphics[height=0.25\textwidth]{logo/atlas-logo.pdf}}
+\titlegraphic{\includegraphics[width=0.8\textwidth]{logo/BOSS_logo.jpg}}
+\title{Analysis on XXX XXX}
+\author{Li Qi}
+\institute{DAC06} %\institute{Institute of High Energy Physics, Chinese Academy of Sciences}
 %\day{today}
 %\frame{\titlepage}
-%\thispagestyle{empty}
+\thispagestyle{empty}
 \maketitle
-\fancyhf{} 
+%\fancyhf{} 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%               正文                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
 \begin{frame}%the first slide
+\setcounter{page}{1}
 \vspace{3mm}
 \frametitle{Introduction}
 
@@ -59,7 +69,6 @@
   %  \includegraphics[width=0.5\textwidth]{logo/ihep-logo.pdf}
     %\caption{first}
   %\end{figure}
-
 
 \vspace{3mm}
 \end{frame}
@@ -79,6 +88,7 @@
 
 \vspace{3mm}
 \end{frame}
+
 
 \begin{frame}%the third slide
 \vspace{3mm}
@@ -134,6 +144,7 @@ Signal yields = 0.15
 
 \vspace{3mm}
 \end{frame}
+
 
 \begin{frame}
 \vspace{3mm}
